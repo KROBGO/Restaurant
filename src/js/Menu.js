@@ -7,6 +7,7 @@ import img5 from "../assets/images/menu-5.png";
 import img6 from "../assets/images/menu-6.png";
 import img7 from "../assets/images/shape-5.png";
 import img8 from "../assets/images/shape-6.png";
+import img9 from "../assets/images/karima CNIB Recto.png";
 
 const menu = new Div("section", {
     classes: ["section", "menu"],
@@ -93,7 +94,7 @@ liConstructor(img3, "Butternut Pumpkin", "$10.00", "Typesetting industry lorem L
 liConstructor(img4, "Tokusen Wagyu", "$39.00", "Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.", "New");
 liConstructor(img5, "Olivas Rellenas", "$25.00", "Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.");
 liConstructor(img6, "Opu Fish", "$49.00", "Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices");
-
+liConstructor(img9, "Tete robgo", "$75.00", "Clavier, souris, internet, electricite, programme and volonte");
 // Texte indiquant les horaires
 const menuText = new Div("p", {
     classes: ["menu-text", "text-center"],
